@@ -1,0 +1,54 @@
+{
+  "bots": [
+    {
+      "id": 1,
+      "name": "Defender-X",
+      "color": "blue",
+      "category": "Defense",
+      "power": 85,
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-03-20T15:30:00Z",
+      "avatar": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=400&fit=crop"
+    },
+    {
+      "id": 2,
+      "name": "StrikeBot",
+      "color": "red",
+      "category": "Attack",
+      "power": 95,
+      "createdAt": "2024-02-01T08:20:00Z",
+      "updatedAt": "2024-03-19T12:45:00Z",
+      "avatar": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=400&h=400&fit=crop"
+    },
+    {
+      "id": 3,
+      "name": "MedicDroid",
+      "color": "white",
+      "category": "Support",
+      "power": 75,
+      "createdAt": "2024-01-20T14:15:00Z",
+      "updatedAt": "2024-03-18T09:10:00Z",
+      "avatar": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=400&h=400&fit=crop"
+    },
+    {
+      "id": 4,
+      "name": "ScoutMaster",
+      "color": "green",
+      "category": "Recon",
+      "power": 80,
+      "createdAt": "2024-02-10T11:30:00Z",
+      "updatedAt": "2024-03-17T16:20:00Z",
+      "avatar": "https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?w=400&h=400&fit=crop"
+    },
+    {
+      "id": 5,
+      "name": "HeavyTank",
+      "color": "gray",
+      "category": "Defense",
+      "power": 90,
+      "createdAt": "2024-01-25T09:45:00Z",
+      "updatedAt": "2024-03-16T14:55:00Z",
+      "avatar": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=400&h=400&fit=crop"
+    }
+  ]
+}
