@@ -26,7 +26,7 @@ function App() {
   const [bots, setBots] = useState<Bot[]>([]);
   const [filteredBots, setFilteredBots] = useState<Bot[]>([]);
   const [army, setArmy] = useState<Bot[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [, setSelectedCategory] = useState<string>('all');
 
   useEffect(() => {
     fetch('/db.json')
@@ -67,9 +67,9 @@ function App() {
     }
   };
 
-  const removeFromArmy = (botId: number) => {
-    setArmy(army.filter((bot) => bot.id !== botId));
-  };
+  // const removeFromArmy = (botId: number) => {
+  //   setArmy(army.filter((bot) => bot.id !== botId));
+  // };
 
   const deleteBot = (botId: number) => {
     setBots(bots.filter((bot) => bot.id !== botId));
